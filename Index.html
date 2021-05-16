@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- La declaración DOCTYPE sirve para decirle al navegador que nuestra página es un documento HTML -->
+<html lang="es" dir="ltr">
+  <!-- Es la raáz que envuelve los bloques head y body  -->
+  <head>
+    <!-- Este bloque head contiene todos los elementos invisibles, exceptuando los elementos que trabajan en la pestaña de la web como title. Head nos permite específicar funcionamientos requeridos como responsive, añadir una variedad de caracteres especiales, conectar múltiples hojas de estilos, etc. -->
+    <meta charset="UTF-8" />
+    <!-- Permite añadir caracteres especiales, símbolos, incluso otros signos que no pertenencen a nuestro idioma. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Da responsive a nuestra página para que se adapte en cualquier dispositivo -->
+    <meta name="keywords" content="Desarrollo Web, HTML5, CSS3, JAVASCRIPT" />
+    <!-- Palabras claves de nuestra página web -->
+    <title>Oscar Pinillo</title>
+    <!-- Sirve para poner el título a la pestaña de la página web -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Proceso de vinculación del archivo CSS al documento HTML  -->
+    <!-- <link rel="stylesheet" href="css/media.css" /> -->
+    <link rel="icon" href="assets/img/Icon-web.png" type="image/png" />
+    <!-- Especifica el icon de la pestaña de la web -->
+  </head>
+
+  <body>
+    <!-- Visualiza todos los contenidos de la web -->
+    <header class="hd">
+      <!-- Class es un selector de clases -->
+      <!-- La etiqueta header es la etiqueta que viene de la última versión de HTML. Es decir, esta etiqueta hace parte de la estructura profesional. Sirve para poner ciertos ecabezados, logo, entre otros.  -->
+      <h1>Oscar Pinillo | desarrollo web</h1>
+      <!-- Define el encabezado más grande -->
+    </header>
+    <nav class="menu">
+      <!-- La etiqueta nav nos permite crear una barra de navegación -->
+      <ul>
+        <!-- Define una lista desordenada  -->
+        <li><a href="" id="inicio">inicio</a></li>
+        <!-- Los elmentos li son desempeñado como ítems-->
+        <li><a href="quiensoy.html">quién soy</a></li>
+        <li><a href="#habilidades">Mis hablidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <!-- La etiqueta <a> determina la hipervinculación de contenidos a través de enlaces -->
+      </ul>
+      <form class="form-menu">
+        <!--Especifíca un área de formulario   -->
+        <input type="search" id="search" placeholder="Search" />
+        <!-- Emplea un campo de búsqueda -->
+        <input type="submit" value="Buscar" id="sub" />
+        <!-- Define el botón de enviar  -->
+      </form>
+    </nav>
+    <section class="part-main">
+      <!-- Dispone la parte principal de la web -->
+      <div>
+        <!-- Nos permite dividir secciones de contenidos web. -->
+        <h2>Estudiante de Desarrollo Web</h2>
+        <!-- Define el segundo encabezado más grande -->
+        <figure>
+          <!-- <figure> sirve para marcar cualquier contenido multimedia -->
+          <img
+            src="assets/img/Icon-location.png"
+            alt="school-location"
+            id="location"
+          />
+          <!--La etiqueta <img> inserta imágenes a nuestra página web  -->
+          <figcaption>
+            Institución Educativa Y Cultural Jesús Amigo, Medellín - Antioquia
+          </figcaption>
+          <!-- Especifica el título  al contenido multimedia -->
+        </figure>
+        <!-- <button>Contacto</button> -->
+        <p><a href="" id="cn">Contacto</a></p>
+      </div>
+    </section>
+    <section class="sec-foot">
+      <main class="sec">
+        <h2 class="ht" id="habilidades">Mis habilidades</h2>
+        <div class="leng">
+          <!--Desarrolla un artículo independiente y puede contener ciertos contenidos  -->
+          <section class="curse">
+            <h3>HTML</h3>
+            <!-- <a href=""> -->
+            <figure class="rd">
+              <img
+                class="img"
+                src="assets/img/Icons-lenguages/icon-html.png"
+                alt="HTML"
+              />
+            </figure>
+            <!-- </a> -->
+            <p>
+              <!-- Representa un párrafo  -->
+              Permite proporcionar la estructuración de contenidos a nuestra
+              página web.
+            </p>
+          </section>
+          <section class="curse">
+            <h3>CSS</h3>
+            <!-- <a href=""> -->
+            <figure class="rd">
+              <img
+                src="assets/img/Icons-lenguages/Icon-css.png"
+                alt="CSS"
+                class="img"
+              />
+            </figure>
+            <!-- </a> -->
+            <p>
+              Desarrolla la aperiencia de nuestra página web para que se vea
+              bonita.
+            </p>
+          </section>
+          <section class="curse">
+            <h3>JS</h3>
+            <!-- <a href="#JS"> -->
+            <figure class="rd">
+              <img
+                src="assets/img/Icons-lenguages/Icon-JavaScript.png"
+                alt="JavaScript"
+                class="img"
+              />
+            </figure>
+            <!-- </a> -->
+            <p>Hace que nuestra página web interactúe con los usuarios.</p>
+          </section>
+        </div>
+      </main>
+      <footer class="foot">
+        <!-- <footer> crea un pie de página. Sirve para poner el nombre del autor, copyright, información de contacto, quién desarrolló la página, etc. -->
+        <h2 class="ht" id="contacto">Contacto</h2>
+        <form action="">
+          <label for="name">Nombre completo</label>
+          <!-- <label> Permite dar un título a un campo de formulario como por ejemplo un <input> de tipo texto, un campo de tipo radio, entre otros distintos campos.  -->
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Escribe tu nombre"
+          />
+          <label for="email">Correo</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ejemplo@ejemplo.com"
+          />
+          <label for="message">Mensaje</label>
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Escribe tu mensaje"
+          />
+          <input type="submit" value="Enviar" id="send" />
+        </form>
+        <p>Oscar Pinillo 2021 | Todos los derechos Reservados</p>
+      </footer>
+    </section>
+    <!-- <script src=""></script> -->
+  </body>
+</html>
