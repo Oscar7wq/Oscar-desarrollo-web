@@ -12,6 +12,9 @@
     <!-- Palabras claves de nuestra página web -->
     <title>Oscar Pinillo</title>
     <!-- Sirve para poner el título a la pestaña de la página web -->
+    <link rel="preload" href="assets/css/styles.css" as="style" />
+    <link rel="preload" href="assets/js/app.js" as="js" />
+    <!-- el valor preload le indica al navegador que cargue un archivo específico lo antes posible -->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <!-- Proceso de vinculación del archivo CSS al documento HTML  -->
     <!-- <link rel="stylesheet" href="css/media.css" /> -->
@@ -23,7 +26,7 @@
     <!-- Visualiza todos los contenidos de la web -->
     <header class="hd">
       <!-- Class es un selector de clases -->
-      <!-- La etiqueta header es la etiqueta que viene de la última versión de HTML. Es decir, esta etiqueta hace parte de la estructura profesional. Sirve para poner ciertos ecabezados, logo, entre otros.  -->
+      <!-- La etiqueta <header> es la etiqueta que viene de la última versión de HTML. Es decir, esta etiqueta hace parte de la estructura profesional. Sirve para poner ciertos ecabezados, logo, entre otros.  -->
       <h1>Oscar Pinillo | desarrollo web</h1>
       <!-- Define el encabezado más grande -->
     </header>
@@ -31,9 +34,9 @@
       <!-- La etiqueta nav nos permite crear una barra de navegación -->
       <ul>
         <!-- Define una lista desordenada  -->
-        <li><a href="" id="inicio">inicio</a></li>
+        <li><a href="#" id="inicio">inicio</a></li>
         <!-- Los elmentos li son desempeñado como ítems-->
-        <li><a href="quiensoy.html">quién soy</a></li>
+        <li><a href="quien_soy.html">quién soy</a></li>
         <li><a href="#habilidades">Mis hablidades</a></li>
         <li><a href="#contacto">Contacto</a></li>
         <!-- La etiqueta <a> determina la hipervinculación de contenidos a través de enlaces -->
@@ -76,15 +79,17 @@
           <!--Desarrolla un artículo independiente y puede contener ciertos contenidos  -->
           <section class="curse">
             <h3>HTML</h3>
-            <!-- <a href=""> -->
+
+            <!-- <a href="#"> -->
             <figure class="rd">
               <img
                 class="img"
-                src="assets/img/Icons-lenguages/icon-html.png"
+                src="assets/img/icons-lenguages/icon-html.png"
                 alt="HTML"
               />
             </figure>
             <!-- </a> -->
+
             <p>
               <!-- Representa un párrafo  -->
               Permite proporcionar la estructuración de contenidos a nuestra
@@ -93,15 +98,17 @@
           </section>
           <section class="curse">
             <h3>CSS</h3>
-            <!-- <a href=""> -->
+
+            <!-- <a href="#"> -->
             <figure class="rd">
               <img
-                src="assets/img/Icons-lenguages/Icon-css.png"
+                src="assets/img/icons-lenguages/Icon-css.png"
                 alt="CSS"
                 class="img"
               />
             </figure>
             <!-- </a> -->
+
             <p>
               Desarrolla la aperiencia de nuestra página web para que se vea
               bonita.
@@ -109,15 +116,17 @@
           </section>
           <section class="curse">
             <h3>JS</h3>
-            <!-- <a href="#JS"> -->
+
+            <!-- <a href="#"> -->
             <figure class="rd">
               <img
-                src="assets/img/Icons-lenguages/Icon-JavaScript.png"
+                src="assets/img/icons-lenguages/Icon-JavaScript.png"
                 alt="JavaScript"
                 class="img"
               />
             </figure>
             <!-- </a> -->
+
             <p>Hace que nuestra página web interactúe con los usuarios.</p>
           </section>
         </div>
