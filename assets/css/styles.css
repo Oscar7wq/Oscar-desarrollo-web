@@ -225,6 +225,8 @@ h3 {
 }
 #name:focus, #email:focus, #message:focus {
     outline: none;
+    box-shadow: 1px 1px 3px rgb(84, 184, 238), 
+    -1px -1px 3px rgb(84, 184, 238);
 }
 .foot p {
     margin-top: 30px;
