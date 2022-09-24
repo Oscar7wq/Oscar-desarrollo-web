@@ -1,2 +1,2 @@
-# Oscar-desarrollo-web
-Primer proyecto público realizado con HTML &amp; CSS.  Este proyecto está en constante cambio. Es decir, se irá implementando nuevas características posteriormente, con el fin de engrandecer el proyecto de manera experimental. 
+# Oscar-desarrollo-web 
+Difunto mi primer proyecto web realizado en HTML & CSS. Este proyecto se desarrolló con el fin de hacer una demostración de mis habilidades básicas orientadas a la estructuración y diseño de la web.
